@@ -1,7 +1,7 @@
 """
 stringjumble.py
 Author: Emma Tysinger
-Credit: None
+Credit: https://dbader.org/blog/python-reverse-list
 
 Assignment:
 
