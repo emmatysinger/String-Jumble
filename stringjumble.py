@@ -38,6 +38,12 @@ newlist2=list2[::-1]
 for i in newlist2:
     print(i+" ",end="")
 print("")
-#for i in list2:
-#    newlist3=list2[i]
-#    for j in newlist3
+print("".join(list2[i])
+for i in list2:
+#    newlist3=list("".join(list2[i]))
+    print("".join(list2[i]))
+#    str="".join(list2[i])
+#    newlist3=list(str)
+#    newlist3=newlist3[::-1]
+#    print(newlist3,end="")
+#print("")
