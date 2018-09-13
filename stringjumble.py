@@ -35,16 +35,16 @@ for i in newlist:
 print("")
 list2=s.split()
 newlist2=list2[::-1]
-wordcount=list2.len()
+wordcount=len(list2)
 wordcount=range(0,wordcount)
 for i in newlist2:
     print(i+" ",end="")
 print("")
-for i in list2:
+for i in wordcount:
 #    newlist3=list("".join(list2[i]))
-    print("".join(list2[i]))
-#    str="".join(list2[i])
-#    newlist3=list(str)
-#    newlist3=newlist3[::-1]
-#    print(newlist3,end="")
-#print("")
+    str="".join(list2[i])
+    newlist3=list(str)
+    newlist3=newlist3[::-1]
+    str2="".join(newlist3)
+    print(str2+" ",end="")
+print("")
