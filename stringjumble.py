@@ -35,10 +35,11 @@ for i in newlist:
 print("")
 list2=s.split()
 newlist2=list2[::-1]
+wordcount=list2.len()
+wordcount=range(0,wordcount)
 for i in newlist2:
     print(i+" ",end="")
 print("")
-print("".join(list2[i])
 for i in list2:
 #    newlist3=list("".join(list2[i]))
     print("".join(list2[i]))
