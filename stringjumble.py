@@ -1,7 +1,7 @@
 """
 stringjumble.py
 Author: Emma Tysinger
-Credit: https://dbader.org/blog/python-reverse-list, https://docs.python.org/3/library/stdtypes.html
+Credit: https://dbader.org/blog/python-reverse-list, https://docs.python.org/3/library/stdtypes.html, https://www.quora.com/In-Python-how-do-you-convert-a-list-to-a-string
 
 Assignment:
 
@@ -41,7 +41,6 @@ for i in newlist2:
     print(i+" ",end="")
 print("")
 for i in wordcount:
-#    newlist3=list("".join(list2[i]))
     str="".join(list2[i])
     newlist3=list(str)
     newlist3=newlist3[::-1]
