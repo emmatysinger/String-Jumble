@@ -1,7 +1,7 @@
 """
 stringjumble.py
 Author: Emma Tysinger
-Credit: https://dbader.org/blog/python-reverse-list
+Credit: https://dbader.org/blog/python-reverse-list, https://docs.python.org/3/library/stdtypes.html
 
 Assignment:
 
@@ -29,8 +29,21 @@ s=input("Please enter a string of text (the bigger the better):")
 print("You entered {0}. Now jumble it:".format(s))
 mylist=list(s)
 characters=int(len(mylist))
-print(characters)
 newlist=mylist[::-1]
 for i in newlist:
     print(i,end="")
-    end=""
+print("")
+wordcount=1+int(mylist.count(" "))
+print(wordcount)
+list2=s.split()
+print(list2)
+newlist2=list2[::-1]
+for i in newlist2:
+    print(i,end="")
+    print(" ")
+print("")
+for i in list2:
+    newlist3=list2[i]
+    
+    for j in newlist3:
+        
