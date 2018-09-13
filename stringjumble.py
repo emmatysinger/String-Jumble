@@ -30,8 +30,8 @@ print("You entered '{0}'. Now jumble it:".format(s))
 mylist=list(s)
 characters=int(len(mylist))
 newlist=mylist[::-1]
-for i in newlist:
-    print(i,end="")
+#for i in newlist:
+#    print(i,end="")
 print("")
 list2=s.split()
 newlist2=list2[::-1]
