@@ -27,6 +27,7 @@ erehT era a wef seuqinhcet ro skcirt taht uoy yam dnif ydnah
 """
 s=input("Please enter a string of text (the bigger the better):")
 print('You entered "{0}". Now jumble it:'.format(s))
+
 mylist=list(s)
 characters=int(len(mylist))
 newlist=mylist[::-1]
