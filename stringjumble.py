@@ -29,22 +29,25 @@ s=input("Please enter a string of text (the bigger the better):")
 print('You entered "{0}". Now jumble it:'.format(s))
 
 mylist=list(s)
-characters=int(len(mylist))
-newlist=mylist[::-1]
-for i in newlist:
+reversed=mylist[::-1]
+for i in reversed: #all letters reversed
     print(i,end="")
 print("")
-list2=s.split()
-newlist2=list2[::-1]
-wordcount=len(list2)
-wordcount=range(0,wordcount)
-for i in newlist2:
+
+words=s.split(" ") #list of words
+reversedwords=words[::-1]
+#wordcount=len(list2)
+#wordcount=range(0,wordcount)
+
+for i in reversedwords: #words reversed
     print(i+" ",end="")
 print("")
-for i in wordcount:
-    str="".join(list2[i])
-    newlist3=list(str)
-    newlist3=newlist3[::-1]
-    str2="".join(newlist3)
-    print(str2+" ",end="")
-print("")
+
+w=[]
+for i in words: #reversed letters only
+    words1=list(i)
+    words1=words1[::-1]
+    words2="".join(words1)
+    w.append(words2)
+w=" ".join(w)
+print(w)
